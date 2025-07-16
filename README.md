@@ -1,6 +1,6 @@
 # The Audio Lobby
 
-A full-stack web application for [brief description of your app's purpose].
+Codebase for theaudiolobby.com
 
 ## Tech Stack
 
