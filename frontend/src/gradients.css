@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.text-gradient-base {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  display: inline-block; 
+  /*font-weight: bold;  Make the text bold for better gradient visibility */
+  /* You might want a base font-size here or handle it with Tailwind */
+}
+
+/* Bronze Gradient Text */
+.text-gradient-bronze {
+  background-image: linear-gradient(45deg, #cd7f32, #b06b2a, #8c5321); /* Darker, earthy bronze */
+  /* Inherits base properties from .text-gradient-base */
+}
+
+/* Silver Gradient Text */
+.text-gradient-silver {
+  background-image: linear-gradient(45deg, #a0a0a0, #c0c0c0, #e0e0e0); /* Classic silver sheen */
+  /* Inherits base properties from .text-gradient-base */
+}
+
+/* Gold Gradient Text */
+.text-gradient-gold {
+  background-image: linear-gradient(45deg, #facc15, #f59e0b, #eab308); /* Bright, shiny gold */
+  /* Inherits base properties from .text-gradient-base */
+}
+
+/* Platinum Gradient Text */
+.text-gradient-platinum {
+  background-image: linear-gradient(45deg, #e0f2f7, #a7d9f7, #66b2e0); /* Very light blue/white to a mid-blue */
+  /* You can adjust the colors:
+     #E0F2F7 (Pale Aqua/Light Cyan)
+     #A7D9F7 (Light Sky Blue)
+     #66B2E0 (Moderate Blue)
+     #ffffff (Pure White) if you want it more starkly white.
+  */
+}
+
+/* Ethereal Gradient Text (Stronger, Whitish-Pinkish Vibe) */
+.text-gradient-ethereal {
+  /* Using more defined color stops for a stronger, more vibrant blend */
+  background-image: linear-gradient(60deg, #ffdde1, #ffccf9, #fddaff, #f7e1ff); /* Soft white, to pink, to light purple, to very light purple */
+  /*font-weight: 900;  Extra bold for stronger gradient pop */
+  /* Inherits base properties from .text-gradient-base */
+}
+
+/* Transcendent Gradient Text (Stronger, Lighter Bluish-Purple) */
+.text-gradient-transcendent {
+  /* More distinct color stops for a vibrant, yet readable, blend */
+  background-image: linear-gradient(60deg, #847aff, #a78bfa, #c084fc, #e0b0ff); /* Blue-violet to light violet */
+  /*font-weight: 900; /* Extra bold for stronger gradient pop */
+  /* Inherits base properties from .text-gradient-base */
+}

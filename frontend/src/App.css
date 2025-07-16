@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  /*text-align: center;*/
+}
+
+.song-card{
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 15px; /* Space between image and details */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: #2c2c2c; /* Default dark background for cards */
+  color: #f0f0f0; /* Light text color */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effects */
+  cursor: pointer;
+  overflow: hidden; /* Important for border-radius on background gradients */
+}
+.song-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Song Image Styling */
+.song-image-container {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 80px; /* Fixed width for album art */
+  height: 80px; /* Fixed height for album art */
+  border-radius: 5px;
+  overflow: hidden; /* Ensure image corners are rounded */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
