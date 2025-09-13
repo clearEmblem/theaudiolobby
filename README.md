@@ -1,6 +1,6 @@
 # The Audio Lobby
 
-Codebase for theaudiolobby.com
+Codebase for theaudiolobby
 
 ## Tech Stack
 
